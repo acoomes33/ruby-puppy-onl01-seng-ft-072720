@@ -18,4 +18,8 @@ end
   def save 
     
   end
+  
+  def clear_all
+    empty = @@all.clear
+  end
 end
