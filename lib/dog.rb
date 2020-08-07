@@ -20,6 +20,6 @@ end
   end
   
   def self.clear_all
-    empty = @@all.clear
+    @@all.clear
   end
 end
